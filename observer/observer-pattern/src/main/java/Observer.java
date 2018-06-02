@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface Observer {
+    void update();
+    void unsubscribe();
 }
